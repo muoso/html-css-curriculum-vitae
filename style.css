@@ -7,15 +7,35 @@ body {
 }
 
 .heading {
-    background-color: gray;
+    background-color: #EDEDED;
     border-style: solid;
-    border-color: black;
+    border-color: #CF8A04;
     border-width: 0px 0px 5px 0px;
   
 }
 
+#propic {
+    display: block;
+    height: 20%;
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align:center;
+}
+
+section {
+    margin-left: 2%;
+}
+
 h2 {
-    color:blue;
+    color: #CF8A04;
+}
+
+h3 {
+
 }
 
 
@@ -26,9 +46,6 @@ h2 {
 
 
 #signature {
-
-    color: red;
     font-size: 0.7em;
     text-align: center;
-    background-color: blue;
 }
