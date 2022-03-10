@@ -1,3 +1,4 @@
+/* setting the margins for the whole body */
 body {
     margin-top: 0%;
     margin-bottom: 0%;
@@ -9,10 +10,11 @@ body {
     background-color: #EDEDED;
     border-style: solid;
     border-color: #CF8A04;
-    border-width: 0px 0px 5px 0px;
+    border-width: 0px 0px 3px 0px;
   
 }
 
+/* resizing and centering the picture */
 #propic {
     display: block;
     height: 20%;
@@ -25,10 +27,12 @@ h1 {
     text-align:center;
 }
 
+/* left margin slightly re-entrant */
 section {
     margin-left: 2%;
 }
 
+/* setting the font styles */
 h2 {
     color: #CF8A04;
 }
@@ -44,4 +48,9 @@ hr {
 #signature {
     font-size: 0.7em;
     text-align: center;
+}
+
+/* adding a bit of space at the bottom of the page*/
+footer {
+    margin-bottom:10%;
 }
